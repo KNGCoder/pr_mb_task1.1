@@ -37,11 +37,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.black,
-      appBar: AppBar(
-        centerTitle: true,
-        title: const Text ('1_1'),
-        backgroundColor: Colors.black,
-      ),
+
       body: Padding(
         padding:const EdgeInsets.symmetric(horizontal: 17),
         child: Column(
